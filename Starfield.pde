@@ -1,4 +1,4 @@
-Particle[] stars = new Particle[1500];
+Particle[] stars = new Particle[1000];
 void setup()
 {
 	size(600,600);
