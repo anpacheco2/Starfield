@@ -32,14 +32,6 @@ class Particle
 	{
 		myX = myX + (Math.cos(myAngle)*mySpeed);
 		myY = myY + (Math.sin(myAngle)*mySpeed);
-		if(myX<0)
-			redraw();
-		if(myX>600)
-			redraw();
-		if(myY>600)
-			redraw();	
-		if(myY<0)
-			redraw();
 
 
 	}
